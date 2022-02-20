@@ -1,0 +1,976 @@
+'mpg123' must you install. Checker again must run. Bonus points may you lose!
+			e.g. sudo apt-get install mpg123
+			e.g. ./check
+./tasks/config.json
++++++ check_deps ...
+system               - Linux
+	 config: Linux SKEMO 5.4.72-microsoft-standard-WSL2 #1 SMP Wed Oct 28 23:40:43 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+gcc                  - installed
+	version: gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+g++                  - installed
+	version: g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+javac                - installed
+	version: javac 17.0.1
+python3              - installed
+	version: Python 3.6.9
+----- check_deps
+
++++++ make_build ...
+[WARNING] Executable 'retele' not found!
+[WARNING] Executable 'reclame' not found!
+[WARNING] Executable 'registre' not found!
+----- make_build
++++++ running all tasks
+
+
+
+
+	+++++ running task retele (20p) ...
+
+		+++++ running test 00-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.210281
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002644
+		----- running test 00-retele - grade 0/0.5
+
+		+++++ running test 01-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.201446
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002544
+		----- running test 01-retele - grade 0/0.5
+
+		+++++ running test 02-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.206768
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002628
+		----- running test 02-retele - grade 0/0.5
+
+		+++++ running test 03-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.236452
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.003017
+		----- running test 03-retele - grade 0/0.5
+
+		+++++ running test 04-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.215248
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002603
+		----- running test 04-retele - grade 0/0.5
+
+		+++++ running test 05-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.221069
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002410
+		----- running test 05-retele - grade 0/0.5
+
+		+++++ running test 06-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.216958
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002384
+		----- running test 06-retele - grade 0/0.5
+
+		+++++ running test 07-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.218708
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002847
+		----- running test 07-retele - grade 0/0.5
+
+		+++++ running test 08-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.234961
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.003035
+		----- running test 08-retele - grade 0/0.5
+
+		+++++ running test 09-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.223839
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002581
+		----- running test 09-retele - grade 0/0.5
+
+		+++++ running test 10-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.256413
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002589
+		----- running test 10-retele - grade 0/0.5
+
+		+++++ running test 11-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.227001
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002913
+		----- running test 11-retele - grade 0/0.5
+
+		+++++ running test 12-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.241539
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002787
+		----- running test 12-retele - grade 0/0.5
+
+		+++++ running test 13-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.239366
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002611
+		----- running test 13-retele - grade 0/0.5
+
+		+++++ running test 14-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.218162
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002347
+		----- running test 14-retele - grade 0/0.5
+
+		+++++ running test 15-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.254406
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002481
+		----- running test 15-retele - grade 0/0.5
+
+		+++++ running test 16-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.225672
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002208
+		----- running test 16-retele - grade 0/0.5
+
+		+++++ running test 17-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.226605
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002224
+		----- running test 17-retele - grade 0/0.5
+
+		+++++ running test 18-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.214451
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002604
+		----- running test 18-retele - grade 0/0.5
+
+		+++++ running test 19-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.223148
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002431
+		----- running test 19-retele - grade 0/0.5
+
+		+++++ running test 20-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.221660
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002498
+		----- running test 20-retele - grade 0/0.5
+
+		+++++ running test 21-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.222553
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002783
+		----- running test 21-retele - grade 0/0.5
+
+		+++++ running test 22-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.223734
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002421
+		----- running test 22-retele - grade 0/0.5
+
+		+++++ running test 23-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.223552
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002169
+		----- running test 23-retele - grade 0/0.5
+
+		+++++ running test 24-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.223581
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002705
+		----- running test 24-retele - grade 0/0.5
+
+		+++++ running test 25-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.240581
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002253
+		----- running test 25-retele - grade 0/0.5
+
+		+++++ running test 26-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.237970
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002404
+		----- running test 26-retele - grade 0/0.5
+
+		+++++ running test 27-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.220087
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002645
+		----- running test 27-retele - grade 0/0.5
+
+		+++++ running test 28-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.230279
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002410
+		----- running test 28-retele - grade 0/1
+
+		+++++ running test 29-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.231778
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002446
+		----- running test 29-retele - grade 0/1
+
+		+++++ running test 30-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.344527
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002385
+		----- running test 30-retele - grade 0/1
+
+		+++++ running test 31-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.235217
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002357
+		----- running test 31-retele - grade 0/1
+
+		+++++ running test 32-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.359110
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002654
+		----- running test 32-retele - grade 0/1
+
+		+++++ running test 33-retele
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:07.634778
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002667
+		----- running test 33-retele - grade 0/1
+
+	----- running task retele - grade 0/20
+
+	+++++ running task reclame (40p) ...
+
+		+++++ running test 00-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050687
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002344
+		----- running test 00-reclame - grade 0/0.5
+
+		+++++ running test 01-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051411
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002554
+		----- running test 01-reclame - grade 0/0.5
+
+		+++++ running test 02-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050930
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002623
+		----- running test 02-reclame - grade 0/0.5
+
+		+++++ running test 03-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054841
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002857
+		----- running test 03-reclame - grade 0/0.5
+
+		+++++ running test 04-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051279
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002289
+		----- running test 04-reclame - grade 0/0.5
+
+		+++++ running test 05-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050741
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002074
+		----- running test 05-reclame - grade 0/0.5
+
+		+++++ running test 06-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049099
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002541
+		----- running test 06-reclame - grade 0/0.5
+
+		+++++ running test 07-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053615
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002959
+		----- running test 07-reclame - grade 0/0.5
+
+		+++++ running test 08-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054169
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002993
+		----- running test 08-reclame - grade 0/0.5
+
+		+++++ running test 09-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053483
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002120
+		----- running test 09-reclame - grade 0/0.5
+
+		+++++ running test 10-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053900
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002807
+		----- running test 10-reclame - grade 0/0.5
+
+		+++++ running test 11-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.058245
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002624
+		----- running test 11-reclame - grade 0/0.5
+
+		+++++ running test 12-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.064610
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002859
+		----- running test 12-reclame - grade 0/1
+
+		+++++ running test 13-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.055349
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002498
+		----- running test 13-reclame - grade 0/1
+
+		+++++ running test 14-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.055647
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002438
+		----- running test 14-reclame - grade 0/1
+
+		+++++ running test 15-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.056102
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002701
+		----- running test 15-reclame - grade 0/1
+
+		+++++ running test 16-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.055083
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002397
+		----- running test 16-reclame - grade 0/1
+
+		+++++ running test 17-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052280
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002438
+		----- running test 17-reclame - grade 0/1
+
+		+++++ running test 18-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.055506
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002006
+		----- running test 18-reclame - grade 0/1
+
+		+++++ running test 19-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051133
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002707
+		----- running test 19-reclame - grade 0/1
+
+		+++++ running test 20-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053763
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002463
+		----- running test 20-reclame - grade 0/1
+
+		+++++ running test 21-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.055133
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002343
+		----- running test 21-reclame - grade 0/1
+
+		+++++ running test 22-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.055909
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002493
+		----- running test 22-reclame - grade 0/1
+
+		+++++ running test 23-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.056709
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002459
+		----- running test 23-reclame - grade 0/1
+
+		+++++ running test 24-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054256
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002299
+		----- running test 24-reclame - grade 0/2
+
+		+++++ running test 25-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054570
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002286
+		----- running test 25-reclame - grade 0/2
+
+		+++++ running test 26-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052333
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002382
+		----- running test 26-reclame - grade 0/2
+
+		+++++ running test 27-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052729
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002403
+		----- running test 27-reclame - grade 0/2
+
+		+++++ running test 28-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054222
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002695
+		----- running test 28-reclame - grade 0/2
+
+		+++++ running test 29-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.056418
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002495
+		----- running test 29-reclame - grade 0/2
+
+		+++++ running test 30-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.058004
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002322
+		----- running test 30-reclame - grade 0/2
+
+		+++++ running test 31-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054453
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002055
+		----- running test 31-reclame - grade 0/2
+
+		+++++ running test 32-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054659
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002149
+		----- running test 32-reclame - grade 0/2
+
+		+++++ running test 33-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051325
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002311
+		----- running test 33-reclame - grade 0/2
+
+		+++++ running test 34-reclame
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052754
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002334
+		----- running test 34-reclame - grade 0/2
+
+	----- running task reclame - grade 0/40
+
+	+++++ running task registre (30p) ...
+
+		+++++ running test 00-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049388
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002579
+		----- running test 00-registre - grade 0/0.5
+
+		+++++ running test 01-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053269
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002327
+		----- running test 01-registre - grade 0/0.5
+
+		+++++ running test 02-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049965
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002445
+		----- running test 02-registre - grade 0/0.5
+
+		+++++ running test 03-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053409
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002405
+		----- running test 03-registre - grade 0/0.5
+
+		+++++ running test 04-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051959
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002328
+		----- running test 04-registre - grade 0/0.5
+
+		+++++ running test 05-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051534
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002459
+		----- running test 05-registre - grade 0/0.5
+
+		+++++ running test 06-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051419
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002405
+		----- running test 06-registre - grade 0/0.5
+
+		+++++ running test 07-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049246
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002419
+		----- running test 07-registre - grade 0/0.5
+
+		+++++ running test 08-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051717
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002188
+		----- running test 08-registre - grade 0/0.5
+
+		+++++ running test 09-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054037
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002839
+		----- running test 09-registre - grade 0/0.5
+
+		+++++ running test 10-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052009
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002794
+		----- running test 10-registre - grade 0/0.5
+
+		+++++ running test 11-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053155
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002549
+		----- running test 11-registre - grade 0/0.5
+
+		+++++ running test 12-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.054057
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002891
+		----- running test 12-registre - grade 0/0.5
+sh: 1: kill: Usage: kill [-s sigspec | -signum | -sigspec] [pid | job]... or
+kill -l [exitstatus]
+
+		+++++ running test 13-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053625
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002650
+		----- running test 13-registre - grade 0/0.5
+
+		+++++ running test 14-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050497
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002512
+		----- running test 14-registre - grade 0/0.5
+
+		+++++ running test 15-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050883
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002105
+		----- running test 15-registre - grade 0/0.5
+
+		+++++ running test 16-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049854
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002110
+		----- running test 16-registre - grade 0/0.5
+
+		+++++ running test 17-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050886
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002487
+		----- running test 17-registre - grade 0/0.5
+
+		+++++ running test 18-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053451
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.001924
+		----- running test 18-registre - grade 0/1
+
+		+++++ running test 19-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052850
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002407
+		----- running test 19-registre - grade 0/1
+
+		+++++ running test 20-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049514
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002295
+		----- running test 20-registre - grade 0/1
+
+		+++++ running test 21-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050861
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002389
+		----- running test 21-registre - grade 0/1
+
+		+++++ running test 22-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.053343
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002476
+		----- running test 22-registre - grade 0/1
+
+		+++++ running test 23-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.050657
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002464
+		----- running test 23-registre - grade 0/1
+
+		+++++ running test 24-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051053
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002532
+		----- running test 24-registre - grade 0/1
+
+		+++++ running test 25-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049595
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002058
+		----- running test 25-registre - grade 0/1
+
+		+++++ running test 26-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052531
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002454
+		----- running test 26-registre - grade 0/1
+
+		+++++ running test 27-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.056033
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002508
+		----- running test 27-registre - grade 0/1
+
+		+++++ running test 28-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052723
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002550
+		----- running test 28-registre - grade 0/1
+
+		+++++ running test 29-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052047
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002533
+		----- running test 29-registre - grade 0/2
+
+		+++++ running test 30-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.051435
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002493
+		----- running test 30-registre - grade 0/2
+
+		+++++ running test 31-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.052343
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002534
+		----- running test 31-registre - grade 0/2
+
+		+++++ running test 32-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.055561
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002410
+		----- running test 32-registre - grade 0/2
+
+		+++++ running test 33-registre
+			running test       ...
+[F			running test       - OK
+				stage time: 0:00:00.049907
+			running check      ...
+[F			running check      - WA: /bin/sh: 1: /mnt/d/Facultate/Anul: not found
+				stage time: 0:00:00.002182
+		----- running test 33-registre - grade 0/2
+
+	----- running task registre - grade 0/30
+
+----- running all tasks
+
+
+			Final grade: 0
+TOTAL: 0/100
+
+
+Total execution time: 0:00:23.670873

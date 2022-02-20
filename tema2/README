@@ -1,0 +1,169 @@
+-- Tema 2 AA -- Paunoiu Darius Alexandru -- 322CD -- Readme
+
+            Reduceri polinomiale
+    Am ales sa implementez aceasta tema in Java.
+
+    Important notes: 
+        - nu stiu daca am voie sa modific clasa primita in schelet Task, asa 
+    ca am lasat-o exact cum a venit. De aceea, declarera variabilelor folosite
+    in fiecare clasa (n, m, k, graph, etc) se regaseste in fiecare clasa de
+    tipul TaskNameSolver.
+        - clasele contin foarte mult comentarii si javadocs pentru a face 
+    intelegerea rezolvarii task-urile cat mai usoara
+        - clasa Constants contine toate constantele folosite in rezolvare.
+        - toate implemantarea mea se gaseste in clasele:
+                * Constants
+                * TaskReteleSolver
+                * TaskReclameSolver
+                * TaskRegistreSolver
+                * + retele, reclame si registre de unde se instantiaza
+                    clasa mentionata mai sus si este apelata metoda solve.
+        
+
+        Task 1 - Retele sociale
+
+    # Pentru acest task problema se reduce la problema K-clique (se poate
+deduce usor din enunt), unde un nod reprezinta o persoana din retea, o muchie
+este prietenia dintre 2 persoane, iar k este dimensiunea clicai cautate.
+Ramane sa reducem problema la o problema CNF-SAT pentru a folosi oracolul.
+    # Variabilele sunt de tipul y_ui, asta insemnand ca nodul u este al i-lea
+element din clica. Pentru codificarea catre oracol, variabila y_ui va deveni
+u * k + i + 1, unde u este nodul curent, k este dimensiunea clicai iar i este
+numeratoarea nodului in clica, cu 0 <= i < k si 0 <= u < n. In total o sa avem
+n * k variabile.
+    # Pentru acest task avem 3 clauze:
+        I) Oricare ar fi i, 1 <= i <= k, exista u nod, 1 <= u <= n 
+        a.i u este al i -lea element din clica.
+
+        II) Pentru 2 pozitii in clica r si s diferite, 1 <= r,s <= k, nodul 
+        asociat lor este diferit. Asta inseamna ca pentru un nod u,
+        1 <= u <= n, u nu poate fi si al r-ulea si al s-ulea in clica.
+        Totodata, asta inseamna si ca 2 noduri diferite u si v, 1 <= u, v <= n,
+        nu pot fi amandoua al r-lea in clica.
+
+        III) Pentru fiecare non-muche din graf formata din (i, j), i si j nu
+        pot fi amandoua in clica.
+    # Toate aceste clauze sunt scrise in cod cu indici pornind de la 0 si
+oprindu-se la mai mic strict decat limita, pentru ca si grafurile sunt identate
+incepand cu pozitia 0.
+    # Analiza Complitatii
+        - Citirea datelor se face in O(m), unde m este numarul de muchii.
+        - Formularea intrebarii catre oracol are destul de multe bucle de
+        analizat, dar suma tuturor buclelor ar fi:
+            2 * n * k + n * ( ( k * (k - 1) )  / 2 )
+                            + ( n * (n - 1) / 2) * k 
+                            + (k - 1) * k * ((n * (n - 1) / 2) - m),
+            unde n este numarul de noduri, k numarul clicai cautate si
+            m este numarul de muchii.
+            Deci, complexitatea ar fi marginata de O(n^2 * k), cu
+            k <= n. Asadar, raspunsul final este O(n^3).
+        - Descifrarea raspunsului oracolului are complexitatea O(n * k^2),
+        cu k <= n, deci O(n^3). (Avem un n*k pentru numarul de variabile, 
+        si un n*k pentru descifrarea lor, dar numarul de variabile de descifrat
+        este egal cu k), iar este numar de noduri si k este dimensiunea clicai.
+        - Afisarea se face in O(k), unde k este dimensiunea clicai dorite.
+        - complexitatea functie solve este de data de formularea intrebarii
+        oracolului, deci este O(n^3). 
+        # Asadar, acest task are complexitatea O(n^3).
+
+
+
+        Task 2 - Reclame buclucase
+
+    # Pentru acest task problema se reduce la problema Minimum-Vertex-Cover
+(se poate deduce usor din enunt), unde un nod reprezinta o persoana din retea,
+o muchie este prietenia dintre 2 persoane. Ramane sa reducem problema la o 
+problema CNF-SAT pentru a folosi oracolul.
+    # Variabilele sunt de tipul y_ui, asta insemnand ca nodul u este al i-lea
+element din cover. Din moment ce cautam minimul, vom porni prin cautarea unui
+vertex cover cu K = 1, si cautam prima valoare a lui k (crestem k de la pas 
+la pas) pentru care orocalul intoarce o valoare adevarata.
+    # Pentru codificarea catre oracol, variabila y_ui va deveni u * k + i + 1, 
+unde u este nodul curent, k este dimensiunea coverului cautat, iar i este 
+numeratoarea nodului in cover, cu 0 <= i < k si 0 <= u < n. In total o sa 
+avem n * k variabile.
+    # Pentru acest task avem 4 clauze:
+        I) Oricare ar fi i, 1 <= i <= k, exista u nod, 1 <= u <= n 
+        a.i u este al i -lea element din cover.
+
+        II) Pentru 2 pozitii in cover r si s diferite, 1 <= r,s <= k, nodul 
+        asociat lor este diferit. Asta inseamna ca pentru un nod u,
+        1 <= u <= n, u nu poate fi si al r-ulea si al s-ulea in clica.
+        Totodata, asta inseamna si ca 2 noduri diferite u si v, 1 <= u, v <= n,
+        nu pot fi amandoua al r-lea in clica.
+
+        III) Pentru fiecare muche din graf formata din (i, j), cel putin
+        1 dintre i si j este in cover.
+    # Toate aceste clauze sunt scrise in cod cu indici pornind de la 0 si
+oprindu-se la mai mic strict decat limita, pentru ca si grafurile sunt identate
+incepand cu pozitia 0.
+    # Analiza Complitatii
+        - Citirea datelor se face in O(m), unde m este numarul de muchii.
+        - Formularea intrebarii catre oracol are destul de multe bucle de
+        analizat, dar suma tuturor buclelor ar fi:
+            2 * n * k + + ( n * (n - 1) / 2) * k 
+                                + n * ( k * (k - 1) )/ 2  
+                                + ( n * (n - 1) / 2) + m * 2 * k,
+            unde n este numarul de noduri, k numarul coverului cautate si
+            m este numarul de muchii.
+            Deci, complexitatea ar fi marginata de O(n^2 * k), cu
+            k <= n. Asadar, raspunsul final este O(n^3).
+        - Descifrarea raspunsului oracolului are complexitatea O(n * k^2),
+        cu k <= n, deci O(n^3). (Avem un n*k pentru numarul de variabile, 
+        si un n*k pentru descifrarea lor, dar numarul de variabile de descifrat
+        este egal cu k), iar este numar de noduri si k este dimensiunea coverului.
+        - Afisarea se face in O(k), unde k este dimensiunea coverului dorit.
+        - Functia solve aici apeleaza formularea intrebarii oracolului de
+        maxim n ori, deci complexitatea functie solve va fi O(n^4).
+        # Asadar, acest task are complexitatea O(n^4).
+
+
+        
+        Task 1 - Retele sociale
+
+    # Pentru acest task problema se reduce la problema K-colorare (se poate
+deduce usor din enunt), unde un nod reprezinta o persoana o variabila, o muchie
+este o relatie intre 2 variabile, iar k este numarul de registre disponibile.
+Ramane sa reducem problema la o problema CNF-SAT pentru a folosi oracolul.
+    # Variabilele sunt de tipul y_ui, asta insemnand ca nodul u este al colorat
+cu culoare i. Pentru codificarea catre oracol, variabila y_ui va deveni
+u * k + i + 1, unde u este nodul curent, k este numarul de culori, iar i este
+culoarea nodului u, cu 0 <= i < k si 0 <= u < n. In total o sa 
+avem n * k variabile.
+    # Pentru acest task avem 2 clauze:
+        I) Pentru orice nod din graf, acesta trebuie sa aiba maxim o culoare,
+        deci trebuie sa aiba minim 1 si maxim 1. Deci oricare ar fi u, cu
+        1 <= u <= n, exista i culoare pentru el. Totodata, asta inseamna ca
+        oricare ar fi r si s culori, 1 <= r,s <= k, y_ur si y_us nu pot fi 
+        amandoua adevarate.
+
+        II) Pentru orice muchie (i, j), nodurile i si j nu pot avea amandoua
+        aceleeasi culoare. Adica, oricare ar fi r, 1 <= r <= k, y_ir si y_jr
+        nu pot fi amandoua adevarate in acelasi timp.
+    # Toate aceste clauze sunt scrise in cod cu indici pornind de la 0 si
+oprindu-se la mai mic strict decat limita, pentru ca si grafurile sunt identate
+incepand cu pozitia 0.
+    # Analiza Complitatii
+        - Citirea datelor se face in O(m), unde m este numarul de muchii.
+        - Formularea intrebarii catre oracol are destul de multe bucle de
+        analizat, dar suma tuturor buclelor ar fi:
+            2 * n * k + n * ( ( k * (k - 1) )  / 2 )
+                            + ( n * (n - 1) / 2) + m * k 
+            unde n este numarul de noduri, k numarul clicai cautate si
+            m este numarul de muchii.
+            Deci, complexitatea ar fi marginata de O(n^2), cu
+            k <= n. Asadar, raspunsul final este O(n^2).
+        - Descifrarea raspunsului oracolului are complexitatea O(n * k^2),
+        cu k <= n, deci O(n^3). (Avem un n*k pentru numarul de variabile, 
+        si un n*k pentru descifrarea lor, dar numarul de variabile de descifrat
+        este egal cu k), iar este numar de noduri si k este dimensiunea clicai.
+        - Afisarea se face in O(k), unde k este dimensiunea clicai dorite.
+        - complexitatea functie solve este de data de descifrarea oracolului,
+        deci este O(n^3). 
+        # Asadar, acest task are complexitatea O(n^3).
+
+            
+
+
+
+
